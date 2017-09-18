@@ -1,0 +1,89 @@
+<!--IMPORTANT Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
+When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
+
+If something is a heading, you use a heading tag.
+If something is a list, you use an unordered or ordered list tag.
+So on and so forth.
+The content for the index.html should be unique to you.
+
+Write a paragraph or two about yourself. Make it fun, show your personality!
+The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
+Add, commit, and push your code to GitHub often, especially when you complete a page.
+After all of your HTML is written, you can begin styling your pages using the style.css file you created.
+
+Be sure to validate your html.
+Consult the specs below these instructions for advice on styling your CSS files.
+Push your changes to Github.
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Melodie Chi">
+    <meta name="keywords" content="portfolio, freecodecamp">
+
+	<title>Melodie Chi</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+	<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell|Raleway|Open+Sans+Condensed:300|PT+Sans+Narrow|Dosis" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+
+		<header>
+			<div id="name">
+				<h1>Melodie Chi</h1>
+			</div>
+			<nav>
+				<ul>
+					<li id="about"><a href="#">About</a></li>
+					<li class="pipeline">|</li>
+					<li id="portfolio"><a href="./portfolio.html">Portfolio</a></li>
+					<li class="pipeline">|</li>
+					<li id="contact"><a href="./contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="wrapper">
+		
+			<section>
+				<h1>About Me</h1>
+				<hr />
+				<img id="prof-pic" src="./assets/images/profile/profile-placeholder.png" alt="profile image" />
+				<p>
+					Melodie is a human being who doesn't know how to describe herself or write a short personal biography. She often finds herself thinking way too much about things that, in reality, will never affect her.
+				</p>
+				<p>
+					Her major interests include psychology, philosophy, creative writing, singing-songwriting, doodling, design, photography, and of course, web development.
+				</p>
+				<p>
+					She plans to graduate from UCI &amp; the UCI Coding Bootcamp, land a job, move to San Diego with her two furry friends, and work remotely while playing guitar and traveling with the sea breeze.
+				</p>
+			</section>
+
+			<aside>
+				<h3>Connect with Me</h3>
+				<hr />
+				<ul>
+					<li><a href="https://github.com/cheesysaurus" target="_blank"><img src="./assets/images/icon/if_github_circle_color_107173.svg" alt="github logo" /></a></li>
+					<li><a href="https://www.linkedin.com/in/melodiechi/" target="_blank"><img src="./assets/images/icon/if_linkedin_circle_color_107178.svg" alt="linkedin logo" /></a></li>
+					<li><a href="https://stackoverflow.com/users/8455866/chzwzrd?tab=profile" target="_blank"><img src="./assets/images/icon/if_stackoverflow_287529.svg" alt="stackoverflow logo" /></a></li>
+				</ul>
+			</aside>
+
+		</div>
+
+		<footer>
+			&copy; Copyright 2017 Melodie Chi
+		</footer>
+
+
+	</div>
+</body>
+</html>

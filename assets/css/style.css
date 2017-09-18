@@ -1,0 +1,219 @@
+/**
+Additional Specifcations
+Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts:
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+Profile Image Found on index.html:
+
+Use a picture of yourself.
+If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
+Portfolio Images:
+
+Placeholder images can be found at LoremPixel.
+Save the images to your images folder.
+Social Link Images (Github, LinkedIn, StackOverflow, etc.):
+
+These images can be found on IconFinder.
+Save the images to your images folder.
+Ensure that these icons are live links to your GitHub, LinkedIn, and Stack Overflow profiles.
+Background Images:
+
+The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
+Dimensions:
+
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+Pro-tip: Use the Page Ruler extension to measure the size of elements.
+Bonus
+Make your pages more sophisticated by adding style to text links, to image links, and to buttons for when a user hovers their cursor over them. A CSS hover tutorial can be found here.
+
+You can use Adobe Kuler to find colors that match the theme (in this case, the primary color is Teal #4aaaa5).
+
+Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page: 
+**/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../images/background/topography/topography.png");
+	color: #777;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+.container {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr {
+	border-top: 3px solid #ddd;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+/* --------------------------
+			HEADER
+-------------------------- */
+
+header {
+	height: 70px;
+	background: #fff;
+	border-bottom: 3px solid #ccc;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#name {
+	float: left;
+	width: 250px;
+	height: 100%;
+	background: #4aaaa5;
+	position: absolute;
+	left: 142px;
+}
+
+header div h1 {
+	position: absolute;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
+	font-size: 1.625em; /* 40px / 16px = 1.625em */
+	font-weight: 900;
+	top: 30%; /* not sure if there is a better way to vertically center */
+	width: 100%;
+	margin: auto;
+	letter-spacing: 0.7px;
+}
+
+nav {
+	position: absolute;
+	right: 220px;
+	top: 35%; /* not sure if there is a better way to vertically center */
+}
+
+nav li {
+	float: left;
+	padding: 20px 5px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #777;
+	padding: 10px;
+}
+
+nav li a:hover {
+	color: #4aaaa5;
+	background: #eee;
+	cursor: pointer;
+}
+
+nav li a:active { /* not working */
+	color: #4aaaa5;
+	background: #eee;
+}
+
+.pipeline {
+	color: #eee;
+}
+
+
+/* --------------------------
+		MAIN SECTION
+-------------------------- */
+
+.wrapper {
+	clear: both;
+	overflow: hidden;
+	width: 960px;
+	margin: 40px auto;
+}
+
+section {
+	float: left;
+	width: 60%;
+	height: 50%;
+	background: #fff;
+}
+
+section h1 {
+	font-size: 1.625em;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+#prof-pic {
+	width: 170px;
+	float: left;
+}
+
+section p {
+	line-height: 30px;
+	float: left;
+}
+
+
+/* --------------------------
+			SIDEBAR
+-------------------------- */
+
+aside {
+	float: left;
+	background: #fff;
+	width: 25%;
+	height: 200px;
+	padding: 30px;
+}
+
+aside h3 {
+	font-size: 1.25em;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+aside li {
+	float: left;
+	padding-left: 5px;
+
+}
+
+
+/* --------------------------
+			FOOTER
+-------------------------- */
+
+footer {
+	clear: both;
+	overflow: auto;
+	position: fixed;
+	bottom: 0;
+	background: #666;
+	height: 70px;
+	width: 100%;
+	border-top: 9px solid #4aaaa5;
+}
+
+
+
