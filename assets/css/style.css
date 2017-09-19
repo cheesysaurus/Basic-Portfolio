@@ -43,17 +43,6 @@ You can use Adobe Kuler to find colors that match the theme (in this case, the p
 Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page: 
 **/
 
-* {
-	box-sizing: border-box;
-}
-
-body {
-	background: url("../images/background/topography/topography-tan.png");
-	color: #777;
-	word-spacing: 1px;
-}
-
-.container {
 /* 
 	font-family: 'Libre Barcode 39 Text', cursive;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -80,6 +69,18 @@ body {
 	font-family: 'Righteous', cursive;
 	font-family: 'Sedgwick Ave Display', cursive;
 */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../images/background/topography/topography-tan.png");
+	color: #777;
+	word-spacing: 1px;
+}
+
+.container {
 	font-family: 'Open Sans Condensed', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: normal;
 	width: 100%;
@@ -125,32 +126,6 @@ header div h1 {
 	text-align: center;
 
 	/* Font */
-/* 
-	font-family: 'Libre Barcode 39 Text', cursive;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-family: 'Oswald', sans-serif;
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-family: 'Libre Barcode 128 Text', cursive;
-	font-family: 'Dosis', sans-serif;
-	font-family: 'Josefin Sans', sans-serif;
-	font-family: 'Libre Barcode 128', cursive;
-	font-family: 'Lobster', cursive;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	font-family: 'Pacifico', cursive;
-	font-family: 'Signika', sans-serif;
-	font-family: 'Acme', sans-serif;
-	font-family: 'Amatic SC', cursive;
-	font-family: 'Patua One', cursive;
-	font-family: 'Permanent Marker', cursive;
-	font-family: 'Satisfy', cursive;
-	font-family: 'Poiret One', cursive;
-	font-family: 'Economica', sans-serif;
-	font-family: 'Courgette', cursive;
-	font-family: 'Righteous', cursive;
-	font-family: 'Sedgwick Ave Display', cursive;
-*/
 	font-family: 'Amatic SC', 'Calibri', 'Arial', 'Verdana', sans-serif;
 	color: #fff;
 	font-size: 2em;
@@ -192,6 +167,7 @@ nav li a:hover {
 .pipeline {
 	color: #eee;
 }
+
 
 /* --------------------------
 		MAIN SECTION
