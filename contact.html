@@ -15,88 +15,80 @@ Be sure to validate your html.
 Consult the specs below these instructions for advice on styling your CSS files.
 Push your changes to Github.
 -->
-
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-	<meta charset="utf-8">
-
-	<title>Melodie Chi</title>
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700" rel="stylesheet">
-   
+    <meta charset="utf-8">
+    <title>Melodie Chi</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
+
 <body>
-
-	<div class="container clearfix">
-
-			<div class="header-div clearfix">
-				<header>
-					<div id="name-bg">
-						<h1>Melodie Chi</h1>
-					</div>
-					<nav>
-						<ul>
-							<li id="about"><a href="./index.html">About</a></li>
-							<li class="nav-divider">|</li>
-							<li id="portfolio"><a href="./portfolio.html">Portfolio</a></li>
-							<li class="nav-divider">|</li>
-							<li id="contact"><a href="#">Contact</a></li>
-						</ul>
-					</nav>
-				</header>
-			</div>
-
-			<div class="wrapper clearfix">
-			<!-- wraps around section & aside -->
-			
-				<div class="section-div clearfix" id="contact-div">
-					<section>
-						<h2>Contact</h2>
-						<hr id="section-ruler" />
-						<form action="#" method="post">
-							Name<br />
-							<input class="input-field" type="text" name="fullname" placeholder="Jane Smith" required="required" autofocus="autofocus" />
-							<br />
-							Email<br />
-							<input class="input-field" type="email" name="email" placeholder="example@gmail.com" required="required" />
-							<br />
-							Message<br />
-							<textarea class="input-field" name="message" rows="15" cols="80" required="required"></textarea>
-							<br />
-							<input type="submit" value="Submit" />
-						</form>
-					</section>
-				</div>
-				
-				<div class="aside-div clearfix">
-					<aside>
-						<h3>Connect with Me</h3>
-						<hr id="aside-ruler" />
-						<ul>
-							<li><a href="https://github.com/cheesysaurus" target="_blank"><img src="./assets/images/icon/if_github_circle_greyblue.svg" alt="github logo" /></a></li>
-							<li><a href="https://www.linkedin.com/in/melodiechi/" target="_blank"><img src="./assets/images/icon/if_linkedin_circle_greyblue.svg" alt="linkedin logo" /></a></li>
-							<li><a href="https://stackoverflow.com/users/8455866/chzwzrd?tab=profile" target="_blank"><img id="stackoverflow" src="./assets/images/icon/if_stackoverflow_circle_greyblue.svg" alt="stackoverflow logo" /></a></li>
-						</ul>
-					</aside>
-				</div> <!-- /.aside-div -->
-
-			</div> <!-- /.wrapper -->
-
-		<!-- <div class="push"></div> to push footer down -->
-
-		<div class="footer-div">
-			<footer>
-				<p>&copy; Copyright 2017 Melodie Chi</p>
-			</footer>
-		</div>
-
-
-	</div> <!-- /.container -->
+    <div class="container clearfix">
+        <div class="header-div clearfix">
+            <header>
+                <div id="name-bg">
+                    <h1>Melodie Chi</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li id="about"><a href="./index.html">About</a></li>
+                        <li class="nav-divider">|</li>
+                        <li id="portfolio"><a href="./portfolio.html">Portfolio</a></li>
+                        <li class="nav-divider">|</li>
+                        <li id="contact"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="wrapper clearfix">
+            <!-- wraps around section & aside -->
+            <div class="section-div clearfix" id="contact-div">
+                <section>
+                    <h2>Contact</h2>
+                    <hr id="section-ruler" />
+                    <form action="#" method="post">
+                        Name
+                        <br />
+                        <input class="input-field" type="text" name="fullname" placeholder="Jane Smith" required="required" autofocus="autofocus" />
+                        <br /> Email
+                        <br />
+                        <input class="input-field" type="email" name="email" placeholder="example@gmail.com" required="required" />
+                        <br /> Message
+                        <br />
+                        <textarea class="input-field" name="message" rows="15" cols="80" required="required"></textarea>
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </section>
+            </div>
+            <div class="aside-div clearfix">
+                <aside>
+                    <h3>Connect with Me</h3>
+                    <hr id="aside-ruler" />
+                    <ul>
+                        <li><a href="https://github.com/cheesysaurus" target="_blank"><img src="./assets/images/icon/if_github_circle_greyblue.svg" alt="github logo" /></a></li>
+                        <li><a href="https://www.linkedin.com/in/melodiechi/" target="_blank"><img src="./assets/images/icon/if_linkedin_circle_greyblue.svg" alt="linkedin logo" /></a></li>
+                        <li><a href="https://stackoverflow.com/users/8455866/chzwzrd?tab=profile" target="_blank"><img id="stackoverflow" src="./assets/images/icon/if_stackoverflow_circle_greyblue.svg" alt="stackoverflow logo" /></a></li>
+                    </ul>
+                </aside>
+            </div>
+            <!-- /.aside-div -->
+        </div>
+        <!-- /.wrapper -->
+        <!-- <div class="push"></div> to push footer down -->
+    </div>
+    <!-- /.container -->
+    <div class="footer-div">
+        <footer>
+            <p>&copy; Copyright 2017 Melodie Chi</p>
+        </footer>
+    </div>
 </body>
+
 </html>
