@@ -1,3 +1,8 @@
+/**
+/* is there a more efficient way to do this method
+/* without setting a specific height for each individual page?
+**/
+
 
 * {
 	box-sizing: border-box;
@@ -32,11 +37,11 @@ body {
 	height: 73px;
 	background: #C1B9A4;
 	float: left;
-	margin-left: 11.4%; /* left: 142px; */
+	margin-left: 133px;
 }
 
 h1 {
-	padding-top: 8%;
+	padding-top: 20px;
 	text-align: center;
 	font-family: 'Amatic SC', 'Calibri', 'Arial', 'Verdana', sans-serif;
 	color: #fff;
@@ -47,7 +52,7 @@ h1 {
 
 nav {
 	float: right;
-	padding-right: 16.8%;
+	padding-right: 210px;
 	margin-top: 27px; /* is there a better way to vertically center? */
 }
 
@@ -78,8 +83,13 @@ nav li a:hover {
 .wrapper {
 	clear: both;
 	width: 960px;
+	margin: auto;
 	margin-top: 113px; /* header height + 40px margin */
-	margin-left: 138px;
+}
+
+/* more efficient way to do this? */
+#about-wrapper {
+	height: calc(100vh - 225px);
 }
 
 #portfolio-wrapper {

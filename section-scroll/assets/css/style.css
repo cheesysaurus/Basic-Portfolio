@@ -18,14 +18,10 @@ body {
 
 .header-div {
 	border-bottom: 2px solid #C1B9A4;
-	box-shadow: 0 0 5px 2px #ebebeb;
-	/* box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */
+	box-shadow: 0 0 5px 2px #ebebeb; /* box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */
 	width: 100%;
 	height: 73px;
 	background: #fff;
-	/*	how do i make the header fixed and still create a margin below the header? 
-	position: fixed;
-	top: 0; */
 	margin-bottom: 40px;
 }
 
@@ -34,11 +30,11 @@ body {
 	height: 73px;
 	background: #C1B9A4;
 	float: left;
-	margin-left: 11.4%; /* left: 142px; */
+	margin-left: 140px;
 }
 
 h1 {
-	padding-top: 8%;
+	padding-top: 20px;
 	text-align: center;
 	font-family: 'Amatic SC', 'Calibri', 'Arial', 'Verdana', sans-serif;
 	color: #fff;
@@ -49,7 +45,7 @@ h1 {
 
 nav {
 	float: right;
-	padding-right: 16.8%;
+	margin-right: 217px;
 	margin-top: 27px; /* is there a better way to vertically center? */
 }
 
@@ -80,7 +76,7 @@ nav li a:hover {
 .wrapper {
 	clear: both;
 	width: 960px;
-	margin-left: 138px;
+	margin: auto;
 }
 
 .section-div {
