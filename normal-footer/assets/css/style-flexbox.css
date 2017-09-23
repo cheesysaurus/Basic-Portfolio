@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 
-html {
+html, body {
 	height: 100%;
 }
 
@@ -14,9 +14,13 @@ body {
 	width: 100%;
 	font-family: 'Open Sans Condensed', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: normal;
-	min-height: 100%;
-	position: relative; /* for footer */
-	padding-bottom: 70px; /* footer height */
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	flex: 1 0 auto;
+	padding-bottom: 40px;
 }
 
 /* ----------------------
@@ -288,8 +292,7 @@ aside img {
 	width: 100%;
 	background: #ebebeb;
 	height: 70px;
-	position: absolute;
-	left: 0; right: 0; bottom: 0;
+	flex-shrink: 0;
 }
 
 footer {
