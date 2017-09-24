@@ -145,17 +145,23 @@ section p a:hover {
 
 /* --- PORTFOLIO -- */
 
+#portfolio-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
 .gallery {
-	width: 100%;
-	margin: 30px 0 0 20px;
+	padding-top: 15px;
+	padding-left: 17px;
+	margin-bottom: -10px;
 }
 
 .gallery figure {
-	/* display: inline-block; */
-	float: left;
-	width: 48%;
-	margin-right: 5px;
-	margin-bottom: -5px;
+	display: inline-block;
+	flex: 1 0 auto;
+	margin-right: 25px;
 }
 
 .gallery img {
