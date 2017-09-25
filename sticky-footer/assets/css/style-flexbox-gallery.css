@@ -44,6 +44,10 @@ body {
 	margin-left: 133px;
 }
 
+#name-bg a {
+	text-decoration: none;
+}
+
 h1 {
 	padding-top: 20px;
 	text-align: center;
@@ -147,9 +151,6 @@ section p a:hover {
 
 #portfolio-div {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
 }
 
 .gallery {
